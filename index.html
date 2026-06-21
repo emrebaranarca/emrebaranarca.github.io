@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>(function(){try{var s=localStorage.getItem('eba-lang');if(s==='en')return;if(s==='tr'){location.replace('tr.html');return;}var l=(navigator.language||'').toLowerCase();if(l.indexOf('tr')===0)location.replace('tr.html');}catch(e){}})();</script>
 <title>Emre Baran Arca — Software Engineer</title>
 <meta name="description" content="Full-stack software engineer focused on backend, distributed systems, and AI-powered products. Node.js, NestJS, gRPC, RabbitMQ, AWS.">
 <meta name="author" content="Emre Baran Arca">
@@ -114,7 +115,7 @@ button{font:inherit;color:inherit}
     <span data-clock style="color:var(--muted)">--:--:--</span>
     <span style="display:flex;align-items:center;gap:6px;color:var(--muted)"><span style="width:7px;height:7px;border-radius:50%;background:var(--accent);animation:pulse 2.4s infinite"></span>operational</span>
     <button data-open-palette class="kbd-btn" style="display:flex;align-items:center;gap:6px;font-family:var(--mono);font-size:11.5px;color:var(--muted);background:var(--surface);border:1px solid var(--line);padding:5px 9px;border-radius:7px;cursor:pointer"><span style="font-size:13px">⌘</span>K</button>
-    <a href="tr.html" title="Türkçe" class="kbd-btn" style="display:flex;align-items:center;font-family:var(--mono);font-size:11.5px;color:var(--muted);background:var(--surface);border:1px solid var(--line);padding:5px 9px;border-radius:7px;text-decoration:none;letter-spacing:.04em">TR</a>
+    <a href="tr.html" title="Türkçe" onclick="try{localStorage.setItem('eba-lang','tr')}catch(e){}" class="kbd-btn" style="display:flex;align-items:center;font-family:var(--mono);font-size:11.5px;color:var(--muted);background:var(--surface);border:1px solid var(--line);padding:5px 9px;border-radius:7px;text-decoration:none;letter-spacing:.04em">TR</a>
     <button data-toggle-theme class="icon-btn" title="Toggle theme" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;font-size:15px;color:var(--muted);background:transparent;border:1px solid var(--line);border-radius:7px;cursor:pointer">◐</button>
   </div>
 </header>
